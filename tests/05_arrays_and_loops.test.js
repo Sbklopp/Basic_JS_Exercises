@@ -58,8 +58,24 @@ xdescribe('forEachLoopSum', () => {
 
 // TEST 7
 xdescribe('forEachLoopHighest', () => {
-    test('returns largest number of array using for loop', () => {
+    test('returns largest number of array using while loop', () => {
         expect(arr.forEachLoopHighest(array1)).toBe(99);
         expect(arr.forEachLoopHighest(array3)).toBe(25);
+    });
+});
+
+// TEST 8
+xdescribe('whileLoopSum', () => {
+    test('returns sum of all elements using forloop', () => {
+        expect(arr.whileLoopSum(array1)).toBe(782);
+        expect(arr.whileLoopSum(array3)).toBe(45);
+    });
+});
+
+// TEST 9
+xdescribe('whileLoopHighest', () => {
+    test('returns largest number of array using while loop', () => {
+        expect(arr.whileLoopHighest(array1)).toBe(99);
+        expect(arr.whileLoopHighest(array3)).toBe(25);
     });
 });

@@ -57,5 +57,20 @@ function forEachLoopHighest(arr){
   
 }
 
+// TEST 8
+// use a WHILE LOOP to complete the function
+// return the sum of all numbers in the array
+function whileLoopSum(arr) {
+    // your code here
+  
+}
 
-module.exports = {first, howMany, last, forLoopSum, forLoopHighest, forEachLoopSum, forEachLoopHighest}
+// TEST 9
+// use a WHILE LOOP to to complete the function
+// return the highest number from an array
+function whileLoopHighest(arr){
+    // your code here
+}
+
+
+module.exports = {first, howMany, last, forLoopSum, forLoopHighest, forEachLoopSum, forEachLoopHighest, whileLoopSum, whileLoopHighest}
